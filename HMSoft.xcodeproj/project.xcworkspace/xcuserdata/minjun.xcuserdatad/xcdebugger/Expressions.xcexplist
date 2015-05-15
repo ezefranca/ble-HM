@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[SerialGATT peripheral:didUpdateValueForCharacteristic:error:]:SerialGATT.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BLEViewController peripheralFound:]:BLEViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SerialGATT write:data:]:SerialGATT.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BLEDeviceViewController talkToArduino:]:BLEDeviceViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SerialGATT peripheral:didDiscoverCharacteristicsForService:error:]:SerialGATT.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SerialGATT findCharacteristicFromUUID:p:service:]:SerialGATT.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SerialGATT findServiceFromUUID:p:]:SerialGATT.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SerialGATT peripheral:didDiscoverServices:]:SerialGATT.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SerialGATT centralManager:didConnectPeripheral:]:SerialGATT.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

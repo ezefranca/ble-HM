@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AEE8FA178F11DA0022F6D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AEE8F9178F11DA0022F6D8 /* Default-568h@2x.png */; };
+		18B843D01668D5890082DD07 /* 114   114g2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B843CC1668CAFC0082DD07 /* 114   114g2.png */; };
+		18B843D11668D58C0082DD07 /* 57  57g2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B843CA1668CAF60082DD07 /* 57  57g2.png */; };
+		E633909B15AFB2FC00C7A225 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E633909A15AFB2FC00C7A225 /* UIKit.framework */; };
+		E633909D15AFB2FC00C7A225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E633909C15AFB2FC00C7A225 /* Foundation.framework */; };
+		E633909F15AFB2FC00C7A225 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E633909E15AFB2FC00C7A225 /* CoreGraphics.framework */; };
+		E63390A515AFB2FC00C7A225 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63390A315AFB2FC00C7A225 /* InfoPlist.strings */; };
+		E63390A715AFB2FC00C7A225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63390A615AFB2FC00C7A225 /* main.m */; };
+		E63390AB15AFB2FC00C7A225 /* BLEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63390AA15AFB2FC00C7A225 /* BLEAppDelegate.m */; };
+		E63390B515AFB32900C7A225 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63390B415AFB32900C7A225 /* CoreBluetooth.framework */; };
+		E63390BE15AFB59B00C7A225 /* BLEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63390BC15AFB59B00C7A225 /* BLEViewController.m */; };
+		E63390BF15AFB59B00C7A225 /* BLEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63390BD15AFB59B00C7A225 /* BLEViewController.xib */; };
+		E63390C415AFB5EC00C7A225 /* BLEDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63390C215AFB5EC00C7A225 /* BLEDeviceViewController.m */; };
+		E63390C515AFB5EC00C7A225 /* BLEDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63390C315AFB5EC00C7A225 /* BLEDeviceViewController.xib */; };
+		E63390D415B000CE00C7A225 /* SerialGATT.m in Sources */ = {isa = PBXBuildFile; fileRef = E63390D315B000CE00C7A225 /* SerialGATT.m */; };
+		E65D07BF15BE9DD80097C363 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65D07BE15BE9DD80097C363 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18AEE8F9178F11DA0022F6D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18B843CA1668CAF60082DD07 /* 57  57g2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57  57g2.png"; sourceTree = "<group>"; };
+		18B843CC1668CAFC0082DD07 /* 114   114g2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "114   114g2.png"; sourceTree = "<group>"; };
+		18B843CE1668D00D0082DD07 /* HMSoft-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HMSoft-Info.plist"; sourceTree = "<group>"; };
+		E633909615AFB2FC00C7A225 /* HMSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E633909A15AFB2FC00C7A225 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E633909C15AFB2FC00C7A225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E633909E15AFB2FC00C7A225 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E63390A415AFB2FC00C7A225 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E63390A615AFB2FC00C7A225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HMSoft/main.m; sourceTree = SOURCE_ROOT; };
+		E63390A815AFB2FC00C7A225 /* HMSoft-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMSoft-Prefix.pch"; path = "HMSoft/HMSoft-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		E63390A915AFB2FC00C7A225 /* BLEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLEAppDelegate.h; path = HMSoft/BLEAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		E63390AA15AFB2FC00C7A225 /* BLEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BLEAppDelegate.m; path = ../HMSoft/BLEAppDelegate.m; sourceTree = "<group>"; };
+		E63390B415AFB32900C7A225 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E63390BB15AFB59B00C7A225 /* BLEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEViewController.h; sourceTree = SOURCE_ROOT; };
+		E63390BC15AFB59B00C7A225 /* BLEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEViewController.m; sourceTree = "<group>"; };
+		E63390BD15AFB59B00C7A225 /* BLEViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLEViewController.xib; sourceTree = "<group>"; };
+		E63390C115AFB5EC00C7A225 /* BLEDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDeviceViewController.h; sourceTree = SOURCE_ROOT; };
+		E63390C215AFB5EC00C7A225 /* BLEDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDeviceViewController.m; sourceTree = "<group>"; };
+		E63390C315AFB5EC00C7A225 /* BLEDeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLEDeviceViewController.xib; sourceTree = "<group>"; };
+		E63390D215B0007400C7A225 /* SerialGATT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialGATT.h; sourceTree = SOURCE_ROOT; };
+		E63390D315B000CE00C7A225 /* SerialGATT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialGATT.m; sourceTree = "<group>"; };
+		E65D07BE15BE9DD80097C363 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E633909315AFB2FC00C7A225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65D07BF15BE9DD80097C363 /* AudioToolbox.framework in Frameworks */,
+				E63390B515AFB32900C7A225 /* CoreBluetooth.framework in Frameworks */,
+				E633909B15AFB2FC00C7A225 /* UIKit.framework in Frameworks */,
+				E633909D15AFB2FC00C7A225 /* Foundation.framework in Frameworks */,
+				E633909F15AFB2FC00C7A225 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E633908B15AFB2FC00C7A225 = {
+			isa = PBXGroup;
+			children = (
+				18AEE8F9178F11DA0022F6D8 /* Default-568h@2x.png */,
+				18B843CC1668CAFC0082DD07 /* 114   114g2.png */,
+				18B843CA1668CAF60082DD07 /* 57  57g2.png */,
+				E65D07BE15BE9DD80097C363 /* AudioToolbox.framework */,
+				E63390C615AFB5F100C7A225 /* DeviceView */,
+				E63390C015AFB5A100C7A225 /* MainView */,
+				E63390B415AFB32900C7A225 /* CoreBluetooth.framework */,
+				E63390BA15AFB55500C7A225 /* SerialGATT */,
+				E63390A015AFB2FC00C7A225 /* HMSoft */,
+				E633909915AFB2FC00C7A225 /* Frameworks */,
+				E633909715AFB2FC00C7A225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E633909715AFB2FC00C7A225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E633909615AFB2FC00C7A225 /* HMSoft.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E633909915AFB2FC00C7A225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E633909A15AFB2FC00C7A225 /* UIKit.framework */,
+				E633909C15AFB2FC00C7A225 /* Foundation.framework */,
+				E633909E15AFB2FC00C7A225 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63390A015AFB2FC00C7A225 /* HMSoft */ = {
+			isa = PBXGroup;
+			children = (
+				E63390A915AFB2FC00C7A225 /* BLEAppDelegate.h */,
+				E63390AA15AFB2FC00C7A225 /* BLEAppDelegate.m */,
+				E63390A115AFB2FC00C7A225 /* Supporting Files */,
+			);
+			path = HMSoft;
+			sourceTree = "<group>";
+		};
+		E63390A115AFB2FC00C7A225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B843CE1668D00D0082DD07 /* HMSoft-Info.plist */,
+				E63390A315AFB2FC00C7A225 /* InfoPlist.strings */,
+				E63390A615AFB2FC00C7A225 /* main.m */,
+				E63390A815AFB2FC00C7A225 /* HMSoft-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = HMSoft;
+			sourceTree = SOURCE_ROOT;
+		};
+		E63390BA15AFB55500C7A225 /* SerialGATT */ = {
+			isa = PBXGroup;
+			children = (
+				E63390D315B000CE00C7A225 /* SerialGATT.m */,
+				E63390D215B0007400C7A225 /* SerialGATT.h */,
+			);
+			name = SerialGATT;
+			sourceTree = "<group>";
+		};
+		E63390C015AFB5A100C7A225 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				E63390BB15AFB59B00C7A225 /* BLEViewController.h */,
+				E63390BC15AFB59B00C7A225 /* BLEViewController.m */,
+				E63390BD15AFB59B00C7A225 /* BLEViewController.xib */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		E63390C615AFB5F100C7A225 /* DeviceView */ = {
+			isa = PBXGroup;
+			children = (
+				E63390C115AFB5EC00C7A225 /* BLEDeviceViewController.h */,
+				E63390C215AFB5EC00C7A225 /* BLEDeviceViewController.m */,
+				E63390C315AFB5EC00C7A225 /* BLEDeviceViewController.xib */,
+			);
+			name = DeviceView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E633909515AFB2FC00C7A225 /* HMSoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63390AE15AFB2FC00C7A225 /* Build configuration list for PBXNativeTarget "HMSoft" */;
+			buildPhases = (
+				E633909215AFB2FC00C7A225 /* Sources */,
+				E633909315AFB2FC00C7A225 /* Frameworks */,
+				E633909415AFB2FC00C7A225 /* Resources */,
+				1859FB751668626000FC73FA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMSoft;
+			productName = HelloBTSmart;
+			productReference = E633909615AFB2FC00C7A225 /* HMSoft.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E633908D15AFB2FC00C7A225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BLE;
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = E633909015AFB2FC00C7A225 /* Build configuration list for PBXProject "HMSoft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E633908B15AFB2FC00C7A225;
+			productRefGroup = E633909715AFB2FC00C7A225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E633909515AFB2FC00C7A225 /* HMSoft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E633909415AFB2FC00C7A225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63390A515AFB2FC00C7A225 /* InfoPlist.strings in Resources */,
+				E63390BF15AFB59B00C7A225 /* BLEViewController.xib in Resources */,
+				E63390C515AFB5EC00C7A225 /* BLEDeviceViewController.xib in Resources */,
+				18B843D01668D5890082DD07 /* 114   114g2.png in Resources */,
+				18B843D11668D58C0082DD07 /* 57  57g2.png in Resources */,
+				18AEE8FA178F11DA0022F6D8 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1859FB751668626000FC73FA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E633909215AFB2FC00C7A225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63390A715AFB2FC00C7A225 /* main.m in Sources */,
+				E63390AB15AFB2FC00C7A225 /* BLEAppDelegate.m in Sources */,
+				E63390BE15AFB59B00C7A225 /* BLEViewController.m in Sources */,
+				E63390C415AFB5EC00C7A225 /* BLEDeviceViewController.m in Sources */,
+				E63390D415B000CE00C7A225 /* SerialGATT.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E63390A315AFB2FC00C7A225 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63390A415AFB2FC00C7A225 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = HMSoft;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63390AC15AFB2FC00C7A225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: HOU FENG (94H9JBGWLN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E63390AD15AFB2FC00C7A225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: HOU FENG (94H9JBGWLN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E63390AF15AFB2FC00C7A225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: HOU FENG (94H9JBGWLN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMSoft/HMSoft-Prefix.pch";
+				INFOPLIST_FILE = "HMSoft/HMSoft-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = HMSoft;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E63390B015AFB2FC00C7A225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: HOU FENG (94H9JBGWLN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMSoft/HMSoft-Prefix.pch";
+				INFOPLIST_FILE = "HMSoft/HMSoft-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = HMSoft;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E633909015AFB2FC00C7A225 /* Build configuration list for PBXProject "HMSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63390AC15AFB2FC00C7A225 /* Debug */,
+				E63390AD15AFB2FC00C7A225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63390AE15AFB2FC00C7A225 /* Build configuration list for PBXNativeTarget "HMSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63390AF15AFB2FC00C7A225 /* Debug */,
+				E63390B015AFB2FC00C7A225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E633908D15AFB2FC00C7A225 /* Project object */;
+}
